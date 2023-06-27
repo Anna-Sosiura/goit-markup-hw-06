@@ -1228,9 +1228,9 @@ img {
     }
 }
 
-@media screen and (min-width:1470px) {
+@media screen and (min-width:1158px) {
     .container {
-        max-width: 1470px;
+        max-width: 1158px;
     }
 
     .header-navigation {
@@ -1327,6 +1327,7 @@ img {
 
     .customers-list {
         gap: 24px;
+        justify-content: space-between;
     }
 
     .customers-item {
@@ -1335,8 +1336,6 @@ img {
 
     .footer-container {
         padding: 100px 0;
-        padding-left: 156px;
-
         position: relative;
         display: flex;
         align-items: baseline;
@@ -1345,13 +1344,13 @@ img {
     .footer-item-container {
         position: absolute;
         top: 100px;
-        left: 540px;
+        left: 340px;
     }
 
     .footer-form-container {
         position: absolute;
         top: 100px;
-        left: 828px;
+        left: 628px;
     }
 
     .footer-form {
